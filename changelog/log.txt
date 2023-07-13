@@ -14,5 +14,6 @@ bash directory
 
 pacman.conf file 
 
+update to changelog 1
 
 
