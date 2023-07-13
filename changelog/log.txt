@@ -1,0 +1,18 @@
+# Alpha 1.0.0
+
+First commit Along with first push
+
+Added README.md
+
+Added the LICENSE 
+
+added BoxOS-bspwm directory
+
+with my .config directory 
+
+bash directory
+
+pacman.conf file 
+
+
+
