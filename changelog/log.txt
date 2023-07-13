@@ -1,4 +1,7 @@
-# Alpha 1.0.0
+# updates to changelog 2
+# updates made 2
+
+# Alpha 0.0.1
 
 First commit Along with first push
 
@@ -12,8 +15,18 @@ with my .config directory
 
 bash directory
 
-pacman.conf file 
+pacman.conf file
 
-update to changelog 1
+# Alpha 0.0.2
+
+updated ABox.sh 
+
+Added audio to script 
+
+such as pipewire, pavucontrol, and  sof-firmware
+
+
+
+
 
 
