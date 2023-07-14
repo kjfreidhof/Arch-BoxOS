@@ -25,6 +25,17 @@ Added audio to script
 
 such as pipewire, pavucontrol, and  sof-firmware
 
+added fonts ttf-fira-code 
+
+added some other new packages aria2 picom 
+
+added stuff to .bashrc such as 
+
+added setfont ter-132n to tty /dev/tty1 and /dev/tty2 
+
+added startx to /dev/tty1 
+
+added neofetch to /dev/tty2 and /dev/pts/0
 
 
 
