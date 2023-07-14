@@ -4,9 +4,9 @@ set -e
 
 req="git" "vim"
 x="xorg-server" "xorg-apps" "xorg-xinit"
-bsp="bspwm" "polybar" "sxhkd" "rofi" "kitty" "firefox"
+bsp="bspwm" "polybar" "sxhkd" "rofi" "kitty" "firefox" "nitrogen" "aria2" "picom"
 audio="pipewire" "pipewire-audio" "pipewire-alsa" "pipewire-pulse" "sof-firmware" "pavucontrol"
-
+fonts="ttf-fira-code"
 
 
 xwm="chmod +x .config/bspwm/bspwmrc"
@@ -23,6 +23,8 @@ sudo pacman -S $x[@]
 sudo pacman -S $bsp[@]
 
 sudo pacman -S $audio[@]
+
+sudo pacman -S $font[@]
 
 
 $conf
