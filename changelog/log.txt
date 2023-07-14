@@ -37,6 +37,8 @@ added startx to /dev/tty1
 
 added neofetch to /dev/tty2 and /dev/pts/0
 
+also update to .config updates to kitty and neofetch
+added wallpapers directory 
 
 
 
