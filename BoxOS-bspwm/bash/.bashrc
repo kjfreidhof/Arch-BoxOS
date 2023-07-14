@@ -33,4 +33,46 @@ if [[ $(tty) = /dev/pts/0 ]]; then
 
 fi
 
+# aliases 
+# cd commands 
+
+alias home='cd ~'
+alias root='cd /'
+alias pop='cd -'
+
+# ls commands 
+alias ll='ls -l'
+alias la='ls -a'
+alias l='ls -al'
+alias lh='ls -alh'
+alias lf='ls -alhf'
+
+# mkdir commands 
+alias md='mkdir'
+alias mdp='mkdir -p'
+
+# cp commands 
+
+alias cpr='cp -r'
+
+# rm commands
+
+alias del='rm -rf'
+
+# disk commands 
+
+alias d='df'
+alias dh='df -h'
+alias fr='free'
+alias fh='free -h'
+
+# date command 
+
+alias da='date'
+
+# essential commands 
+alias cls='clear'
+alias x='exit'
+
+
 
