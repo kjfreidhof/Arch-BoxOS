@@ -10,6 +10,7 @@ blue=("bluez" "bluez-utils")
 fonts="ttf-fira-code"
 virt=("virt-manager" "qemu-desktop" "dnsmasq" "iptables-nft")
 flame="flameshot"
+eclient="thunderbird"
 
 xwm="chmod +x .config/bspwm/bspwmrc"
 xpol="chmod +x .config/polybar/launch.sh"
@@ -33,5 +34,7 @@ sudo pacman -S "${blue[@]}"
 sudo pacman -S "${virt[@]}"
 
 sudo pacman -S "$flame"
+
+sudo pacman -S "$eclient"
 
 $xwm && $xpol && $xsdl && $conf && $bash && $xin 
