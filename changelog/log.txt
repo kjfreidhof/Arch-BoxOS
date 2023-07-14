@@ -47,5 +47,8 @@ update to .config directory in BoxOS-bspwm
 
 removed evolution directory 
 
+Added Virt-manager to Abox.sh in BoxOS-bspwm
+
+Added flameshot to Abox.sh 
 
 
