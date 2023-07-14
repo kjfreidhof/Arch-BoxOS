@@ -2,13 +2,13 @@
 
 set -e
 
-req=("git" "vim")
+req=("git" "vim" "polkit-gnome")
 x=("xorg-server" "xorg-apps" "xorg-xinit")
-bsp=("bspwm" "polybar" "sxhkd" "rofi" "kitty" "firefox" "nitrogen" "aria2" "picom")
+bsp=("bspwm" "polybar" "sxhkd" "rofi" "kitty" "firefox" "nitrogen" "aria2" "picom" "gvfs" "pcmanfm")
 audio=("pipewire" "pipewire-audio" "pipewire-alsa" "pipewire-pulse" "sof-firmware" "pavucontrol")
 blue=("bluez" "bluez-utils")
 fonts="ttf-fira-code"
-virt=("virt-manager" "qemu-desktop" "dnsmasq" "iptables-nft")
+virt=("virt-manager" "qemu-desktop" "dnsmasq" "iptables-nft" "dmidecode")
 flame="flameshot"
 eclient="thunderbird"
 
