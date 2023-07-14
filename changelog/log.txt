@@ -1,5 +1,5 @@
-# updates to changelog 2
-# updates made 2
+# updates to changelog 5
+# updates made 5
 
 # Alpha 0.0.1
 
@@ -38,8 +38,14 @@ added startx to /dev/tty1
 added neofetch to /dev/tty2 and /dev/pts/0
 
 also update to .config updates to kitty and neofetch
+
 added wallpapers directory 
 
+# Alpha 0.0.3
+
+update to .config directory in BoxOS-bspwm
+
+removed evolution directory 
 
 
 
