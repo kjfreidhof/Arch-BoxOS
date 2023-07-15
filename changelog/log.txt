@@ -50,7 +50,38 @@ removed evolution directory
 Added Virt-manager to Abox.sh in BoxOS-bspwm
 
 Added flameshot to Abox.sh 
-
 Added Thunderbird email client to Abox.sh
+
+# Alpha 0.0.4
+
+Added Boxos-sway directory
+
+Added a Abox.sh bash script for Boxos-sway 
+
+Added sway swaylock swayidle swaybg to sway Abox.sh script 
+
+polkit-gnome was added to both Abox.sh script for bspwm and Abox.sh sway script
+
+gvfs is in both scripts 
+
+pcmanfm is in both scripts 
+
+aria2 is in both scripts 
+
+Along with everything else that was in the bspwm script 
+
+Their are things that will change on the sway side such as the screenshot tool that will probably change in 
+
+The next alpha release because for some reason flameshot does not work in sway or ill find a fix either one of those to
+
+testing will be done with that 
+
+Also their are things that will be added to improve this project as time goes on as long as i still have spare time
+
+im am going to work on adding some of the sway addons that would be really cool and things i add to the sway side
+
+will make the xorg bspwm side better cause im going to work on that as well just not as often releases for bspwm 
+
+will go for a weekly basis probably.
 
 
