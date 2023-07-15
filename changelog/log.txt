@@ -1,5 +1,5 @@
-# updates to changelog 9
-# updates made 25
+# updates to changelog 10
+# updates made 27
 
 # Alpha 0.0.1
 
@@ -84,4 +84,12 @@ will make the xorg bspwm side better cause im going to work on that as well just
 
 will go for a weekly basis probably.
 
+# Alpha 0.0.5
+update to .bashrc for BoxOS-sway
 
+update to .bash_profile for BoxOS-sway
+
+Added New aliases to bashrc 
+
+Also in my .bash_profile when i am put into tty3 it executes sway 
+ 
