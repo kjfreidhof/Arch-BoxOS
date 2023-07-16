@@ -1,5 +1,5 @@
-# updates to changelog 11
-# updates made 35
+# updates to changelog 12
+# updates made 36
 
 # Alpha 0.0.1
 
@@ -151,3 +151,15 @@ Added the ability to install autotiling workstyle and swaync btw these things ma
 if yay is installed if not then it will install it then install the extras which autotiling workstyle and swaync are 
 
 apart of and also added one piece of user error 
+
+# Alpha 0.0.7 
+
+Added brightnessctl to sway script. 
+
+Removed swaync for now 
+
+Added brightnessctl to sway config 
+
+Next thats coming is to remove the bspwm code then add the code for sway 
+
+Made also a few chnges to the workspace.toml they now show proper workspaces 
