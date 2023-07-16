@@ -4,14 +4,14 @@ set -e
 
 req=("git" "vim" "polkit-gnome")
 x=("xorg-server" "xorg-apps" "xorg-xinit")
-sway=("sway" "swaylock" "swayidle" "swaybg" "rofi" "kitty" "firefox" "aria2" "gvfs" "pcmanfm")
+sway=("sway" "swaylock" "swayidle" "swaybg" "rofi" "kitty" "firefox" "aria2" "gvfs" "pcmanfm" "brightnessctl")
 audio=("pipewire" "pipewire-audio" "pipewire-alsa" "pipewire-pulse" "sof-firmware" "pavucontrol")
 blue=("bluez" "bluez-utils")
 fonts="ttf-fira-code"
 virt=("virt-manager" "qemu-desktop" "dnsmasq" "iptables-nft" "dmidecode")
 flame="flameshot"
 eclient="thunderbird"
-sext=("autotiling" "workstyle" "swaync")
+sext=("autotiling" "workstyle")
 
 # xwm="chmod +x .config/bspwm/bspwmrc"
 # xpol="chmod +x .config/polybar/launch.sh"

@@ -9,7 +9,7 @@
 # Note if multiple patterns are present in the same application name,
 # precedence is given in order of apparition in this file.
 
-"alacritty" = ""
+"kitty" = ""
 "github" = ""
 "rust" = ""
 "google" = ""
@@ -27,7 +27,7 @@
 "transmission" = ""
 "videostream" = ""
 "mpv" = ""
-"music" = ""
+"spotify" = ""
 "disk usage" = ""
 ".pdf" = ""
 
