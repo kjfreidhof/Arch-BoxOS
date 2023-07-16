@@ -1,11 +1,20 @@
 # Default config for sway
-#
+#:
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
 
 # Autostart 
-exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
+
+exec_always autotiling -w 1 3 5 7 9
+
+exec_always --no-startup-id workstyle &> /tmp/workstyle.log
+
+
+# Notification Daemon
+exec swaync
+
 
 ### Variables
 set $opacity 0.9
@@ -26,9 +35,8 @@ set $term kitty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu rofi -show drun 
 
-# set $menu rofi -show drun 
+set $menu rofi -show drun 
 
 ### Output configuration
 #
@@ -37,8 +45,8 @@ output * bg /home/fyle/.config/wallpapers/wallhaven-7p39gy.png fill
 #
 # Example configuration:
 #
- output eDP-1 resolution 1920x1080 position 1920,0
- output DP-2  resolution 1280x720  position 1280,0
+# output eDP-1 resolution 1920x1080 position 1920,0
+  output DP-2  resolution 1920x1080  position 1920,0
 #
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
@@ -80,7 +88,7 @@ exec swayidle -w \
     bindsym $mod+Shift+q kill
 
     # Start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+d exec $menu 
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -206,6 +214,15 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
+
+
+
+# Toggle control center
+bindsym $mod+Shift+n exec swaync-client -t -sw
+
+
+
+
 
 #
 # Status Bar:

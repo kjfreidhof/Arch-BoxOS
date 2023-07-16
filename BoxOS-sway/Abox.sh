@@ -11,12 +11,14 @@ fonts="ttf-fira-code"
 virt=("virt-manager" "qemu-desktop" "dnsmasq" "iptables-nft" "dmidecode")
 flame="flameshot"
 eclient="thunderbird"
+sext=("autotiling" "workstyle" "swaync")
 
 # xwm="chmod +x .config/bspwm/bspwmrc"
 # xpol="chmod +x .config/polybar/launch.sh"
 # xsd="chmod +x .config/sxhkd/sxhkdrc"
 # conf="cp -r .config ~/"
 # bash="cp * bash/ ~/"
+mk="cd yay && makepkg -si"
 
 sudo pacman -S "${req[@]}"
 
@@ -34,4 +36,36 @@ sudo pacman -S "${virt[@]}"
 
 sudo pacman -S "$eclient"
 
-$xwm && $xpol && $xsdl && $conf && $bash && $xin 
+# $xwm && $xpol && $xsdl && $conf && $bash && $xin 
+
+
+echo $sext
+
+read -rp "Do you want to install the following features y/n: " choice
+
+if [ "$choice" = y ]; then
+       if ! which yay >> /dev/null; then
+	       git clone https://aur.archlinux.org/yay.git
+	       $mk
+	       yay -s $sext
+
+      else
+	      yay -s $sext
+
+	
+      fi 
+
+elif [ "$choice" = n ]; then
+	exit 
+
+
+
+else
+	echo "Error: wrong option"
+	echo "Please choose y/n"
+	exit
+
+
+
+
+fi
