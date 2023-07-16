@@ -92,4 +92,62 @@ update to .bash_profile for BoxOS-sway
 Added New aliases to bashrc 
 
 Also in my .bash_profile when i am put into tty3 it executes sway 
+
+
+Alpha 0.0.6
  
+On branch main
+Your branch is up to date with 'origin/main'.
+
+	deleted:    BoxOS-bspwm/.config/pavucontrol.ini
+	deleted:    BoxOS-bspwm/.config/pulse/cookie
+	deleted:    BoxOS-sway/.config/bspwm/bspwmrc
+	modified:   BoxOS-sway/.config/dconf/user
+	deleted:    BoxOS-sway/.config/libfm/libfm.conf
+	deleted:    BoxOS-sway/.config/libvirt/storage/autostart/default.xml
+	deleted:    BoxOS-sway/.config/libvirt/storage/default.xml
+	deleted:    BoxOS-sway/.config/nitrogen/bg-saved.cfg
+	deleted:    BoxOS-sway/.config/nitrogen/nitrogen.cfg
+	deleted:    BoxOS-sway/.config/pavucontrol.ini
+	modified:   BoxOS-sway/.config/pcmanfm/default/pcmanfm.conf
+	deleted:    BoxOS-sway/.config/polybar/config.ini
+	deleted:    BoxOS-sway/.config/polybar/launch.sh
+	deleted:    BoxOS-sway/.config/pulse/cookie
+	deleted:    BoxOS-sway/.config/spotify/User Data/WidevineCdm/4.10.2652.2/LICENSE
+	deleted:    BoxOS-sway/.config/spotify/User Data/WidevineCdm/4.10.2652.2/_metadata/verified_contents.json
+	deleted:    BoxOS-sway/.config/spotify/User Data/WidevineCdm/4.10.2652.2/_platform_specific/linux_x64/libwidevinecdm.so
+	deleted:    BoxOS-sway/.config/spotify/User Data/WidevineCdm/4.10.2652.2/manifest.fingerprint
+	deleted:    BoxOS-sway/.config/spotify/User Data/WidevineCdm/4.10.2652.2/manifest.json
+	deleted:    BoxOS-sway/.config/spotify/User Data/WidevineCdm/latest-component-updated-widevine-cdm
+	deleted:    BoxOS-sway/.config/spotify/Users/sting4555-user/ad-state-storage.bnk
+	deleted:    BoxOS-sway/.config/spotify/Users/sting4555-user/frecency.pb
+	deleted:    BoxOS-sway/.config/spotify/Users/sting4555-user/local-files.bnk
+	deleted:    BoxOS-sway/.config/spotify/Users/sting4555-user/local_sync_state
+	deleted:    BoxOS-sway/.config/spotify/Users/sting4555-user/log-tracked
+	deleted:    BoxOS-sway/.config/spotify/Users/sting4555-user/pending-messages_seq_nr
+	deleted:    BoxOS-sway/.config/spotify/Users/sting4555-user/prefs
+	deleted:    BoxOS-sway/.config/spotify/Users/sting4555-user/watch-sources.bnk
+	deleted:    BoxOS-sway/.config/spotify/prefs
+	modified:   BoxOS-sway/.config/sway/config
+	deleted:    BoxOS-sway/.config/sxhkd/sxhkdrc
+	modified:   BoxOS-sway/Abox.sh
+
+added:
+	BoxOS-sway/.config/gtk-3.0/
+	BoxOS-sway/.config/workstyle/
+
+Added autotiling to sway config 
+
+Added Workstyle to sway config as well 
+
+Added swaync to sway config 
+
+Also Deleted somethings in the .config in both BoxOS-sway and BoxOS-bspwm
+
+Update to Abox.sh in BoxOS-sway
+
+Added the ability to install autotiling workstyle and swaync btw these things may change based on what i decide 
+
+if yay is installed if not then it will install it then install the extras which autotiling workstyle and swaync are 
+
+apart of and also added one piece of user error 
