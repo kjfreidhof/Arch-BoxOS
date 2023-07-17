@@ -1,7 +1,8 @@
-# BoxOS-Alpha 
+# BoxOS-beta 
 
-## This is The Alpha branch for BoxOS this is where When ever i make a change to BoxOS it will get pushed to this 
-## branch the alpha It is untested so that right their is your
+## This is The beta branch for BoxOS this is the testing branch this is were i test and make sure its ready till its 
+## just right then i push to the main branch  
+## This branch is beta It is tested so that right their is your warning This is where i test and constantly make changes 
 
 ## Use this Branch at your Own risk 
 
