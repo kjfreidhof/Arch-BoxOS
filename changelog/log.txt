@@ -172,4 +172,9 @@ Release of BoxOS-sway
 
 Added The ability to copy my bash and my .config to the correct places automatically in BoxOS-sway/Abox.sh 
 
+# Alpha 0.0.8 
+Update to bashrc in BoxOS-bspwm and BoxOS-sway 
+
+Added new aliases for git 
+
 
