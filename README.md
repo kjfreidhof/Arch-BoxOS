@@ -1,8 +1,8 @@
-# BoxOS-beta 
+# BoxOS-main 
 
-## This is The beta branch for BoxOS this is the testing branch this is were i test and make sure its ready till its 
-## just right then i push to the main branch  
-## This branch is beta It is tested so that right their is your warning This is where i test and constantly make changes 
+## This is The main branch for BoxOS this is the stable branch this is were it should be ready 
+## And i push to here when its ready At least once every 6 months 
+## This branch is main It should be stable but however this branch could still contain untested code so  
 
 ## Use this Branch at your Own risk 
 
