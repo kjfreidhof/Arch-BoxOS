@@ -1,5 +1,6 @@
 # updates to changelog 12
 # updates made 36
+# Release candiate 1 
 
 # Alpha 0.0.1
 
@@ -163,3 +164,12 @@ Added brightnessctl to sway config
 Next thats coming is to remove the bspwm code then add the code for sway 
 
 Made also a few chnges to the workspace.toml they now show proper workspaces 
+
+# Release 0.0.7
+Release of BoxOS-bspwm
+
+Release of BoxOS-sway
+
+Added The ability to copy my bash and my .config to the correct places automatically in BoxOS-sway/Abox.sh 
+
+
