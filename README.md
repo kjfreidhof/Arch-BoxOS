@@ -1,8 +1,8 @@
 # BoxOS-main 
 
-## This is The main branch for BoxOS this is the stable branch this is were it should be ready 
-## And i push to here when its ready At least once every 6 months 
-## This branch is main It should be stable but however this branch could still contain untested code so  
+## This is The Alpah branch for BoxOS this is where something is added without being tested first 
+
+## This branch is Alpha and contains untested code 
 
 ## Use this Branch at your Own risk 
 
