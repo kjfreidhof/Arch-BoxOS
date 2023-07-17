@@ -177,4 +177,16 @@ Update to bashrc in BoxOS-bspwm and BoxOS-sway
 
 Added new aliases for git 
 
+# Alpha 0.0.9 
+
+Added .icons to alpha branch 
+
+Added .themes to alpha branch
+
+updated .bashrc in BoxOS-sway and BoxOS-bspwm to alpha branch 
+
+Added grimshot to Abox.sh BoxOS-sway to alpha branch 
+
+Update to workstyle in .config BoxOS-sway to alpha branch 
+
 
