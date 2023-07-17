@@ -9,7 +9,7 @@ audio=("pipewire" "pipewire-audio" "pipewire-alsa" "pipewire-pulse" "sof-firmwar
 blue=("bluez" "bluez-utils")
 fonts="ttf-fira-code"
 virt=("virt-manager" "qemu-desktop" "dnsmasq" "iptables-nft" "dmidecode")
-flame="flameshot"
+flame="grimshot"
 eclient="thunderbird"
 sext=("autotiling" "workstyle")
 
