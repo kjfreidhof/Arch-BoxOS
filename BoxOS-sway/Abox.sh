@@ -13,11 +13,9 @@ flame="flameshot"
 eclient="thunderbird"
 sext=("autotiling" "workstyle")
 
-# xwm="chmod +x .config/bspwm/bspwmrc"
-# xpol="chmod +x .config/polybar/launch.sh"
-# xsd="chmod +x .config/sxhkd/sxhkdrc"
-# conf="cp -r .config ~/"
-# bash="cp * bash/ ~/"
+bash="cp ~/bash/.bashrc ~/"
+prof="cp ~/bash/.bash_profile ~/" 
+config="cp -r /BoxOS-sway/.config ~/"
 mk="cd yay && makepkg -si"
 
 sudo pacman -S "${req[@]}"
@@ -36,8 +34,7 @@ sudo pacman -S "${virt[@]}"
 
 sudo pacman -S "$eclient"
 
-# $xwm && $xpol && $xsdl && $conf && $bash && $xin 
-
+$bash && $prof && $config 
 
 echo $sext
 
