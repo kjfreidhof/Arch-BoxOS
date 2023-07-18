@@ -21,7 +21,7 @@ sudo pacman -S "${sway[@]}"
 
 sudo pacman -S "${audio[@]}"
 
-sudo pacman -S "$font"
+sudo pacman -S "$fonts"
 
 sudo pacman -S "${blue[@]}"
 
@@ -33,8 +33,8 @@ sudo pacman -S "$eclient"
 echo $sext
 
 
-cp ~/bash/.bashrc $HOME
-cp ~/bash/.bash_profile $HOME
+cp /bash/.bashrc $HOME
+cp /bash/.bash_profile $HOME
 cp -r .config $HOME 
 
 
