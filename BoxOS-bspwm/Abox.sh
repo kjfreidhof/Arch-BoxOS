@@ -16,7 +16,8 @@ xwm="chmod +x .config/bspwm/bspwmrc"
 xpol="chmod +x .config/polybar/launch.sh"
 xsd="chmod +x .config/sxhkd/sxhkdrc"
 conf="cp -r .config ~/"
-bash="cp  bash/.bashrc ~/ && cp bash/.bash_profile ~/"
+bash="cp bash/.bashrc ~/" 
+prof="cp bash/.bash_profile ~/"
 xin="cp xinit/.xinitrc ~/"
 
 sudo pacman -S "${req[@]}"
@@ -37,4 +38,4 @@ sudo pacman -S "$flame"
 
 sudo pacman -S "$eclient"
 
-$xwm && $xpol && $xsdl && $conf && $bash && $xin 
+$xwm && $xpol && $xsdl && $conf && $bash && $xin && $prof
