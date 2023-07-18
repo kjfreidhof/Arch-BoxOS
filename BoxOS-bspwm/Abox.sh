@@ -27,7 +27,7 @@ sudo pacman -S "${bsp[@]}"
 
 sudo pacman -S "${audio[@]}"
 
-sudo pacman -S "$font"
+sudo pacman -S "$fonts"
 
 sudo pacman -S "${blue[@]}"
 
