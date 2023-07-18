@@ -2,8 +2,8 @@
 
 set -e
 
-req=("git" "vim" "polkit-gnome")
-x=("xorg-server" "xorg-apps" "xorg-xinit")
+req=("git" "vim" "polkit-gnome" "terminus-font")
+x=("xorg-server" "xorg-apps" "xorg-xinit" "xorg-xwayland")
 sway=("sway" "swaylock" "swayidle" "swaybg" "rofi" "kitty" "firefox" "aria2" "gvfs" "pcmanfm" "brightnessctl")
 audio=("pipewire" "pipewire-audio" "pipewire-alsa" "pipewire-pulse" "sof-firmware" "pavucontrol")
 blue=("bluez" "bluez-utils")
@@ -12,11 +12,6 @@ virt=("virt-manager" "qemu-desktop" "dnsmasq" "iptables-nft" "dmidecode")
 flame="grimshot"
 eclient="thunderbird"
 sext=("autotiling" "workstyle")
-
-bash="cp ~/bash/.bashrc ~/"
-prof="cp ~/bash/.bash_profile ~/" 
-config="cp -r /BoxOS-sway/.config ~/"
-mk="cd yay && makepkg -si"
 
 sudo pacman -S "${req[@]}"
 
@@ -34,16 +29,21 @@ sudo pacman -S "${virt[@]}"
 
 sudo pacman -S "$eclient"
 
-$bash && $prof && $config 
 
 echo $sext
+
+
+cp ~/bash/.bashrc $HOME
+cp ~/bash/.bash_profile $HOME
+cp -r .config $HOME 
+
 
 read -rp "Do you want to install the following features y/n: " choice
 
 if [ "$choice" = y ]; then
        if ! which yay >> /dev/null; then
 	       git clone https://aur.archlinux.org/yay.git
-	       $mk
+	       cd yay && makepkg -si
 	       yay -s $sext
 
       else
