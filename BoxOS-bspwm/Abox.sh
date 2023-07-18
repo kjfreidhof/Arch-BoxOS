@@ -16,8 +16,8 @@ xwm="chmod +x .config/bspwm/bspwmrc"
 xpol="chmod +x .config/polybar/launch.sh"
 xsd="chmod +x .config/sxhkd/sxhkdrc"
 conf="cp -r .config ~/"
-bash="cp * bash/ ~/"
-xin="cp * xinit/.xinitrc ~/"
+bash="cp  bash/.bashrc ~/ && cp bash/.bash_profile ~/"
+xin="cp xinit/.xinitrc ~/"
 
 sudo pacman -S "${req[@]}"
 
