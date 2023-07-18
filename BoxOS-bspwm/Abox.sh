@@ -12,14 +12,6 @@ virt=("virt-manager" "qemu-desktop" "dnsmasq" "iptables-nft" "dmidecode")
 flame="flameshot"
 eclient="thunderbird"
 
-xwm="chmod +x .config/bspwm/bspwmrc"
-xpol="chmod +x .config/polybar/launch.sh"
-xsd="chmod +x .config/sxhkd/sxhkdrc"
-conf="cp -r .config ~/"
-bash="cp bash/.bashrc ~/" 
-prof="cp bash/.bash_profile ~/"
-xin="cp xinit/.xinitrc ~/"
-
 sudo pacman -S "${req[@]}"
 
 sudo pacman -S "${x[@]}"
@@ -38,4 +30,12 @@ sudo pacman -S "$flame"
 
 sudo pacman -S "$eclient"
 
-$xwm && $xpol && $xsdl && $conf && $bash && $xin && $prof
+chmod +x .config/bspwm/bspwmrc
+chmod +x .config/polybar/launch.sh
+chmod +x .config/sxhkd/sxhkdrc
+cp -r .config $HOME
+cp bash/.bashrc $HOME
+cp bash/.bash_profile $HOME
+cp xinit/.xinitrc $HOME
+
+
