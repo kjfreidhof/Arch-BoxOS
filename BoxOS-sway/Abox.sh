@@ -11,7 +11,6 @@ fonts="ttf-fira-code"
 virt=("virt-manager" "qemu-desktop" "dnsmasq" "iptables-nft" "dmidecode")
 flame="grimshot"
 eclient="thunderbird"
-sext=("autotiling" "workstyle")
 
 sudo pacman -S "${req[@]}"
 
@@ -30,11 +29,8 @@ sudo pacman -S "${virt[@]}"
 sudo pacman -S "$eclient"
 
 
-echo $sext
-
-
-cp /bash/.bashrc $HOME
-cp /bash/.bash_profile $HOME
+cp bash/.bashrc $HOME
+cp bash/.bash_profile $HOME
 cp -r .config $HOME 
 
 
@@ -44,13 +40,26 @@ if [ "$choice" = y ]; then
        if ! which yay >> /dev/null; then
 	       git clone https://aur.archlinux.org/yay.git
 	       cd yay && makepkg -si
-	       yay -s $sext
+	       cd ..
+	       git clone https://aur.archlinux.org/autotiling.git
+	       cd autotiling && makepkg -si 
+	       cd ..
+	       git clone https://aur.archlinux.org/workstyle-git.git
+	       cd workstyle-git && makepkg -si 
+	       exit
+	       
 
       else
-	      yay -s $sext
-
+	       
+	       git clone https://aur.archlinux.org/autotiling.git
+	       cd autotiling && makepkg -si 
+	       cd ..
+	       git clone https://aur.archlinux.org/workstyle-git.git
+	       cd workstyle-git && makepkg -si
+	       exit  
 	
-      fi 
+
+     fi 
 
 elif [ "$choice" = n ]; then
 	exit 
