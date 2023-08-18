@@ -1,10 +1,6 @@
-# BoxOS-Alpha 
+# Arch-BoxOS
 
-## This is The Alpah branch for BoxOS this is where something is added without being tested first 
-
-## This branch is Alpha and contains untested code 
-
-## Use this Branch at your Own risk 
+## Arch-BoxOS is a set of configurations for the various window managers i have used for Arch linux. This repo is updated when ever i have the time to update it. 
 
 ## How to use this 
 
